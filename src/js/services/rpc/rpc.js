@@ -42,7 +42,7 @@ export default angular
           {
             host: uri.host(),
             path: "/jsonrpc",
-            port: 6800,
+            port: 443,
             encrypt: false
           },
           {
