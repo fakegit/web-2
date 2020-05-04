@@ -170,7 +170,7 @@
       .constant("$authconf", {
         host: location.protocol.startsWith("http") ? location.hostname : "localhost",
         path: "/jsonrpc",
-        port: 6800,
+        port: 443,
         encrypt: !1,
         auth: {},
         directURL: ""
