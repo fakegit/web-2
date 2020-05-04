@@ -315,7 +315,7 @@
             -1 != ["http", "https"].indexOf(r.protocol()) &&
               "localhost" != r.host() &&
               u.push(
-                { host: r.host(), path: "/jsonrpc", port: 6800, encrypt: !1 },
+                { host: r.host(), path: "/jsonrpc", port: 443, encrypt: !1 },
                 {
                   host: r.host(),
                   port: r.port(),
