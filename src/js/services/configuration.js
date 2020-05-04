@@ -9,9 +9,11 @@ export default angular
     // default authentication configuration, never fill it in case the webui is hosted in public IP as it can be compromised
     host: location.protocol.startsWith("http") ? location.hostname : "bssg123.herokuapp.com",
     path: "bssg123.herokuapp.com/jsonrpc",
-    port: 6800,
+    port: 443,
     encrypt: false,
     auth: {
+      
+      token : '$123$'
       // either add the token field or the user and pass field, not both.
       // token: '$YOUR_SECRET_TOKEN$'
       /*-----------------------------*/
